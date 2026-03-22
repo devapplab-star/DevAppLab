@@ -1,14 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="PillPlanner - Smart medication reminders and tracking for better health management">
-    <meta name="theme-color" content="#6366f1">
-    <title>PillPlanner - Never Miss a Dose</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="description" content="PillPlaner - App de recordatorios de medicación e inventario para Android">
+    <meta name="theme-color" content="#0A0A0A">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <title>PillPlaner - Never Miss a Dose</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
@@ -16,7 +18,7 @@
     
     <header class="header">
         <nav class="nav container">
-            <a href="../" class="back-link">
+            <a href="../../" class="back-link">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                     <path d="M19 12H5M12 19l-7-7 7-7"/>
                 </svg>
@@ -29,49 +31,49 @@
         <section class="hero">
             <div class="container">
                 <div class="hero-content">
-                    <div class="hero-badge">
+                    <span class="hero-badge">
                         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                             <path d="M9 1a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2H9z"/>
                             <path d="M9 9a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V11a2 2 0 0 0-2-2H9z"/>
                             <path d="M10 19h4"/>
                         </svg>
                         <span>Health & Wellness</span>
-                    </div>
+                    </span>
                     <h1 class="hero-title">
                         <span class="title-line">Never Miss</span>
-                        <span class="title-line accent">a Dose Again</span>
+                        <span class="title-line accent">a Dose</span>
                     </h1>
                     <p class="hero-description">
-                        PillPlanner is your personal medication assistant. Set smart reminders, 
-                        track your doses, and manage your health with confidence.
+                        Tu asistente personal de medicación. Establece recordatorios inteligentes, 
+                        gestiona tu inventario y mantén un registro de tus tomas.
                     </p>
                     <div class="hero-actions">
                         <a href="#" class="btn btn-appstore">
                             <svg viewBox="0 0 24 24" fill="currentColor">
                                 <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/>
                             </svg>
-                            <span>App Store</span>
+                            <span>Descargar</span>
                         </a>
-                        <a href="#legal" class="btn btn-outline">Legal Documents</a>
+                        <a href="#legal" class="btn btn-outline">Documentos Legales</a>
                     </div>
                 </div>
                 <div class="hero-visual">
                     <div class="phone-mockup">
                         <div class="phone-screen">
                             <div class="app-header-mini">
-                                <span class="app-name-mini">PillPlanner</span>
-                                <span class="date-mini">Today</span>
+                                <span class="app-name-mini">PillPlaner</span>
+                                <span class="date-mini">Hoy</span>
                             </div>
                             <div class="medications-mini">
                                 <div class="med-mini active">
                                     <div class="med-time">8:00 AM</div>
-                                    <div class="med-name">Vitamin D</div>
-                                    <div class="med-status">Taken</div>
+                                    <div class="med-name">Vitamina D</div>
+                                    <div class="med-status">Tomado</div>
                                 </div>
                                 <div class="med-mini">
                                     <div class="med-time">2:00 PM</div>
-                                    <div class="med-name">Blood Pressure</div>
-                                    <div class="med-status upcoming">Upcoming</div>
+                                    <div class="med-name">Presión Arterial</div>
+                                    <div class="med-status">Próximo</div>
                                 </div>
                             </div>
                         </div>
@@ -82,44 +84,51 @@
 
         <section class="features">
             <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Características</h2>
+                    <p class="section-subtitle">Todo lo que necesitas para no olvidar tu medicación</p>
+                </div>
                 <div class="features-grid">
-                    <div class="feature-card">
+                    <article class="feature-card">
                         <div class="feature-icon">
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                 <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/>
                                 <path d="M13.73 21a2 2 0 0 1-3.46 0"/>
                             </svg>
                         </div>
-                        <h3 class="feature-title">Smart Reminders</h3>
+                        <h3 class="feature-title">Recordatorios Inteligentes</h3>
                         <p class="feature-description">
-                            Get timely notifications that remind you when it's time to take your medication, 
-                            customized to your schedule.
+                            Notificaciones oportunas que te avisan cuando es hora de tomar tu medicación, 
+                            personalizadas según tu horario.
                         </p>
-                    </div>
-                    <div class="feature-card">
+                    </article>
+                    <article class="feature-card">
                         <div class="feature-icon">
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                 <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
                             </svg>
                         </div>
-                        <h3 class="feature-title">Track Progress</h3>
+                        <h3 class="feature-title">Control de Adherencia</h3>
                         <p class="feature-description">
-                            Monitor your medication adherence over time with intuitive charts and 
-                            stay motivated to maintain your routine.
+                            Gráficos intuitivos para monitorear tu adherencia al tratamiento y mantenerte 
+                            motivado con tu rutina.
                         </p>
-                    </div>
-                    <div class="feature-card">
+                    </article>
+                    <article class="feature-card">
                         <div class="feature-icon">
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                                <path d="M20 7h-9"/>
+                                <path d="M14 17H5"/>
+                                <circle cx="17" cy="17" r="3"/>
+                                <circle cx="7" cy="7" r="3"/>
                             </svg>
                         </div>
-                        <h3 class="feature-title">Secure & Private</h3>
+                        <h3 class="feature-title">Gestión de Inventario</h3>
                         <p class="feature-description">
-                            Your health data stays on your device. We never collect or share 
-                            your personal information.
+                            Controla la cantidad disponible de tus medicamentos y recibe alertas cuando 
+                            estén por agotarse.
                         </p>
-                    </div>
+                    </article>
                 </div>
             </div>
         </section>
@@ -127,10 +136,8 @@
         <section id="legal" class="legal-section">
             <div class="container">
                 <div class="section-header">
-                    <h2 class="section-title">Legal Documents</h2>
-                    <p class="section-subtitle">
-                        Review our privacy policy and terms of service
-                    </p>
+                    <h2 class="section-title">Documentos Legales</h2>
+                    <p class="section-subtitle">Revisa nuestra política de privacidad y términos de servicio</p>
                 </div>
                 <div class="legal-grid">
                     <a href="privacy.html" class="legal-card">
@@ -141,14 +148,12 @@
                             </svg>
                         </div>
                         <div class="legal-content">
-                            <h3 class="legal-title">Privacy Policy</h3>
-                            <p class="legal-description">
-                                Learn how we collect, use, and protect your personal data.
-                            </p>
+                            <h3 class="legal-title">Política de Privacidad</h3>
+                            <p class="legal-description">Cómo recopilamos, usamos y protegemos tus datos.</p>
                         </div>
                         <div class="legal-arrow">
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M5 12h14M12 5l7 7-7 7"/>
+                                <path d="M9 18l6-6-6-6"/>
                             </svg>
                         </div>
                     </a>
@@ -159,18 +164,15 @@
                                 <polyline points="14 2 14 8 20 8"/>
                                 <line x1="16" y1="13" x2="8" y2="13"/>
                                 <line x1="16" y1="17" x2="8" y2="17"/>
-                                <polyline points="10 9 9 9 8 9"/>
                             </svg>
                         </div>
                         <div class="legal-content">
-                            <h3 class="legal-title">Terms of Service</h3>
-                            <p class="legal-description">
-                                Read the terms and conditions governing the use of PillPlanner.
-                            </p>
+                            <h3 class="legal-title">Términos de Servicio</h3>
+                            <p class="legal-description">Términos y condiciones de uso de PillPlaner.</p>
                         </div>
                         <div class="legal-arrow">
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M5 12h14M12 5l7 7-7 7"/>
+                                <path d="M9 18l6-6-6-6"/>
                             </svg>
                         </div>
                     </a>
@@ -189,28 +191,28 @@
                             <path d="M9 9a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V11a2 2 0 0 0-2-2H9z"/>
                             <path d="M10 19h4"/>
                         </svg>
-                        <span>PillPlanner</span>
+                        <span>PillPlaner</span>
                     </div>
-                    <p class="footer-tagline">Your health companion, always by your side.</p>
+                    <p class="footer-tagline">Tu compañero de salud, siempre contigo.</p>
                 </div>
                 <div class="footer-links">
                     <div class="footer-column">
-                        <h4 class="footer-heading">Legal</h4>
+                        <h4>Legal</h4>
                         <ul>
-                            <li><a href="privacy.html">Privacy Policy</a></li>
-                            <li><a href="terms.html">Terms of Service</a></li>
+                            <li><a href="privacy.html">Privacidad</a></li>
+                            <li><a href="terms.html">Términos</a></li>
                         </ul>
                     </div>
                     <div class="footer-column">
-                        <h4 class="footer-heading">Company</h4>
+                        <h4>Empresa</h4>
                         <ul>
-                            <li><a href="../">DevAppLab</a></li>
+                            <li><a href="../../">DevAppLab</a></li>
                         </ul>
                     </div>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p class="copyright">&copy; 2026 PillPlanner. All rights reserved.</p>
+                <p class="copyright">&copy; 2024 PillPlaner. Todos los derechos reservados.</p>
             </div>
         </div>
     </footer>
