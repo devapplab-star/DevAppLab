@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="description" content="Mi Ahorro - App para organizar tu ahorro, metas, ingresos, gastos, préstamos y deudas desde Android">
+    <meta name="theme-color" content="#0A0A0A">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <title>Mi Ahorro - Organiza tus finanzas personales</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="page-bg"></div>
+
+    <header class="header">
+        <nav class="nav container">
+            <a href="../../" class="back-link">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M19 12H5M12 19l-7-7 7-7"/>
+                </svg>
+                <span>DevAppLab</span>
+            </a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <span class="hero-badge">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M3 7a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
+                            <path d="M16 12h.01"/>
+                            <path d="M19 9h2v6h-2"/>
+                        </svg>
+                        <span>Finanzas Personales</span>
+                    </span>
+                    <h1 class="hero-title">
+                        <span class="title-line">Controla tus</span>
+                        <span class="title-line accent">ahorros y metas</span>
+                    </h1>
+                    <p class="hero-description">
+                        Organiza tu ahorro principal, registra abonos y gastos, crea objetivos
+                        y lleva seguimiento de préstamos y deudas desde una sola app.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="https://play.google.com/store/apps/details?id=app.diegoramms.com.miahorro" class="btn btn-appstore">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M5 12h14"/>
+                                <path d="M12 5l7 7-7 7"/>
+                            </svg>
+                            <span>Ver en Google Play</span>
+                        </a>
+                        <a href="#legal" class="btn btn-outline">Documentos Legales</a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="phone-mockup">
+                        <div class="phone-screen">
+                            <div class="app-header-mini">
+                                <span class="app-name-mini">Mi Ahorro</span>
+                                <span class="date-mini">Hoy</span>
+                            </div>
+                            <div class="medications-mini">
+                                <div class="med-mini active">
+                                    <div class="med-time">Ahorro actual</div>
+                                    <div class="med-name">$12,540</div>
+                                    <div class="med-status">Meta mensual al 78%</div>
+                                </div>
+                                <div class="med-mini">
+                                    <div class="med-time">Objetivo</div>
+                                    <div class="med-name">Viaje de verano</div>
+                                    <div class="med-status">Faltan $3,500</div>
+                                </div>
+                                <div class="med-mini">
+                                    <div class="med-time">Pendiente</div>
+                                    <div class="med-name">Préstamo por cobrar</div>
+                                    <div class="med-status">15 de mayo</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="features">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Características</h2>
+                    <p class="section-subtitle">Herramientas prácticas para seguir el estado de tu dinero</p>
+                </div>
+                <div class="features-grid">
+                    <article class="feature-card">
+                        <div class="feature-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 1v22"/>
+                                <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7H14.5a3.5 3.5 0 0 1 0 7H6"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature-title">Ahorro y movimientos</h3>
+                        <p class="feature-description">
+                            Registra abonos y gastos, visualiza tu ahorro principal y mantén control
+                            del avance de forma simple y rápida.
+                        </p>
+                    </article>
+                    <article class="feature-card">
+                        <div class="feature-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M3 20h18"/>
+                                <path d="M7 16l4-4 3 3 7-7"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature-title">Objetivos financieros</h3>
+                        <p class="feature-description">
+                            Crea metas con monto objetivo y fecha límite para saber cuánto falta
+                            y cuánto has logrado ahorrar.
+                        </p>
+                    </article>
+                    <article class="feature-card">
+                        <div class="feature-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+                                <path d="M8 9h8"/>
+                                <path d="M8 13h5"/>
+                            </svg>
+                        </div>
+                        <h3 class="feature-title">Deudas, préstamos y moneda</h3>
+                        <p class="feature-description">
+                            Lleva control de dinero prestado o pendiente por pagar, además de elegir
+                            la moneda que mejor se adapte a tu contexto.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="legal" class="legal-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Documentos Legales</h2>
+                    <p class="section-subtitle">Consulta cómo funciona la app y cómo se trata tu información</p>
+                </div>
+                <div class="legal-grid">
+                    <a href="privacy.html" class="legal-card">
+                        <div class="legal-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="3" y="11" width="18" height="11" rx="2" ry="2"/>
+                                <path d="M7 11V7a5 5 0 0 1 10 0v4"/>
+                            </svg>
+                        </div>
+                        <div class="legal-content">
+                            <h3 class="legal-title">Política de Privacidad</h3>
+                            <p class="legal-description">Qué datos utiliza Mi Ahorro y cómo se almacenan.</p>
+                        </div>
+                        <div class="legal-arrow">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M9 18l6-6-6-6"/>
+                            </svg>
+                        </div>
+                    </a>
+                    <a href="terms.html" class="legal-card">
+                        <div class="legal-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                                <polyline points="14 2 14 8 20 8"/>
+                                <line x1="16" y1="13" x2="8" y2="13"/>
+                                <line x1="16" y1="17" x2="8" y2="17"/>
+                            </svg>
+                        </div>
+                        <div class="legal-content">
+                            <h3 class="legal-title">Términos de Servicio</h3>
+                            <p class="legal-description">Condiciones de uso de Mi Ahorro y límites del servicio.</p>
+                        </div>
+                        <div class="legal-arrow">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M9 18l6-6-6-6"/>
+                            </svg>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M3 7a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
+                            <path d="M16 12h.01"/>
+                            <path d="M19 9h2v6h-2"/>
+                        </svg>
+                        <span>Mi Ahorro</span>
+                    </div>
+                    <p class="footer-tagline">Una forma clara de organizar tu dinero personal.</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Legal</h4>
+                        <ul>
+                            <li><a href="privacy.html">Privacidad</a></li>
+                            <li><a href="terms.html">Términos</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Empresa</h4>
+                        <ul>
+                            <li><a href="../../">DevAppLab</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="copyright">&copy; 2026 Mi Ahorro. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
